@@ -1,6 +1,11 @@
-import { createApp } from 'vue'
+import {
+	createApp
+} from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+import '@/assets/css/reset.css'
+import '@/assets/css/border.css'
+import '@/assets/js/common.js'
+// 开发要先搞好数据
 createApp(App).use(store).use(router).mount('#app')
